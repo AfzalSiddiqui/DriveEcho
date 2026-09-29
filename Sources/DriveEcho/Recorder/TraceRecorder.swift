@@ -1,5 +1,7 @@
 import CoreLocation
+#if os(iOS) || os(watchOS)
 import CoreMotion
+#endif
 import Foundation
 
 /// Errors thrown by ``TraceRecorder``.
@@ -14,6 +16,9 @@ public enum TraceRecorderError: Error, Sendable {
 ///
 /// An actor that captures `CLLocation` and `CMDeviceMotion` into a single
 /// timestamped trace. Safe to use from any task.
+///
+/// > Note: CoreMotion is only available on iOS. On macOS, motion data will
+/// > not be captured and the recorder will only collect GPS data.
 public actor TraceRecorder {
     public enum State: Sendable {
         case idle
@@ -29,7 +34,9 @@ public actor TraceRecorder {
 
     private var locationDelegate: LocationDelegate?
     private var locationManager: CLLocationManager?
+    #if os(iOS) || os(watchOS)
     private var motionManager: CMMotionManager?
+    #endif
     private var collectionTask: Task<Void, Never>?
 
     public init(configuration: RecorderConfiguration = .init()) {
@@ -55,16 +62,17 @@ public actor TraceRecorder {
         self.locationDelegate = delegate
         self.locationManager = locManager
 
+        #if os(iOS) || os(watchOS)
         let motManager = CMMotionManager()
         motManager.deviceMotionUpdateInterval = configuration.motionUpdateInterval
         motManager.startDeviceMotionUpdates()
         self.motionManager = motManager
+        #endif
 
         let interval = configuration.motionUpdateInterval
         let refTime = referenceTime!
 
         collectionTask = Task { [weak self] in
-            // Merge location and motion into samples
             await withTaskGroup(of: Void.self) { group in
                 // Location collection
                 group.addTask {
@@ -86,6 +94,7 @@ public actor TraceRecorder {
                     }
                 }
 
+                #if os(iOS) || os(watchOS)
                 // Motion collection (pull-based)
                 group.addTask {
                     while !Task.isCancelled {
@@ -107,6 +116,7 @@ public actor TraceRecorder {
                         try? await Task.sleep(for: .seconds(interval))
                     }
                 }
+                #endif
             }
         }
     }
@@ -121,11 +131,13 @@ public actor TraceRecorder {
         collectionTask = nil
         locationManager?.stopUpdatingLocation()
         locationDelegate?.stop()
+        #if os(iOS) || os(watchOS)
         motionManager?.stopDeviceMotionUpdates()
+        motionManager = nil
+        #endif
 
         locationManager = nil
         locationDelegate = nil
-        motionManager = nil
 
         state = .idle
 
