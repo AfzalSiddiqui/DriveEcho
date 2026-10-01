@@ -1,0 +1,131 @@
+{
+  "": {
+    "swift-dependencies": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/master.swiftdeps"
+  },
+  "/Users/mac/Desktop/GithubProject/DriveEcho/Sources/DriveEcho/Formats/Trace+GPX.swift": {
+    "dependencies": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/Trace+GPX.d",
+    "object": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/Trace+GPX.swift.o",
+    "swiftmodule": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/Trace+GPX~partial.swiftmodule",
+    "swift-dependencies": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/Trace+GPX.swiftdeps",
+    "diagnostics": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/Trace+GPX.dia"
+  },
+  "/Users/mac/Desktop/GithubProject/DriveEcho/Sources/DriveEcho/Formats/Trace+GeoJSON.swift": {
+    "dependencies": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/Trace+GeoJSON.d",
+    "object": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/Trace+GeoJSON.swift.o",
+    "swiftmodule": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/Trace+GeoJSON~partial.swiftmodule",
+    "swift-dependencies": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/Trace+GeoJSON.swiftdeps",
+    "diagnostics": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/Trace+GeoJSON.dia"
+  },
+  "/Users/mac/Desktop/GithubProject/DriveEcho/Sources/DriveEcho/Formats/Trace+JSON.swift": {
+    "dependencies": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/Trace+JSON.d",
+    "object": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/Trace+JSON.swift.o",
+    "swiftmodule": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/Trace+JSON~partial.swiftmodule",
+    "swift-dependencies": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/Trace+JSON.swiftdeps",
+    "diagnostics": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/Trace+JSON.dia"
+  },
+  "/Users/mac/Desktop/GithubProject/DriveEcho/Sources/DriveEcho/Models/LocationSample.swift": {
+    "dependencies": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/LocationSample.d",
+    "object": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/LocationSample.swift.o",
+    "swiftmodule": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/LocationSample~partial.swiftmodule",
+    "swift-dependencies": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/LocationSample.swiftdeps",
+    "diagnostics": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/LocationSample.dia"
+  },
+  "/Users/mac/Desktop/GithubProject/DriveEcho/Sources/DriveEcho/Models/MotionSample.swift": {
+    "dependencies": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/MotionSample.d",
+    "object": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/MotionSample.swift.o",
+    "swiftmodule": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/MotionSample~partial.swiftmodule",
+    "swift-dependencies": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/MotionSample.swiftdeps",
+    "diagnostics": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/MotionSample.dia"
+  },
+  "/Users/mac/Desktop/GithubProject/DriveEcho/Sources/DriveEcho/Models/Sample.swift": {
+    "dependencies": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/Sample.d",
+    "object": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/Sample.swift.o",
+    "swiftmodule": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/Sample~partial.swiftmodule",
+    "swift-dependencies": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/Sample.swiftdeps",
+    "diagnostics": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/Sample.dia"
+  },
+  "/Users/mac/Desktop/GithubProject/DriveEcho/Sources/DriveEcho/Models/Trace.swift": {
+    "dependencies": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/Trace.d",
+    "object": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/Trace.swift.o",
+    "swiftmodule": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/Trace~partial.swiftmodule",
+    "swift-dependencies": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/Trace.swiftdeps",
+    "diagnostics": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/Trace.dia"
+  },
+  "/Users/mac/Desktop/GithubProject/DriveEcho/Sources/DriveEcho/Perturbations/DriftPerturbation.swift": {
+    "dependencies": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/DriftPerturbation.d",
+    "object": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/DriftPerturbation.swift.o",
+    "swiftmodule": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/DriftPerturbation~partial.swiftmodule",
+    "swift-dependencies": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/DriftPerturbation.swiftdeps",
+    "diagnostics": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/DriftPerturbation.dia"
+  },
+  "/Users/mac/Desktop/GithubProject/DriveEcho/Sources/DriveEcho/Perturbations/JitterPerturbation.swift": {
+    "dependencies": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/JitterPerturbation.d",
+    "object": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/JitterPerturbation.swift.o",
+    "swiftmodule": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/JitterPerturbation~partial.swiftmodule",
+    "swift-dependencies": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/JitterPerturbation.swiftdeps",
+    "diagnostics": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/JitterPerturbation.dia"
+  },
+  "/Users/mac/Desktop/GithubProject/DriveEcho/Sources/DriveEcho/Perturbations/Perturbation.swift": {
+    "dependencies": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/Perturbation.d",
+    "object": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/Perturbation.swift.o",
+    "swiftmodule": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/Perturbation~partial.swiftmodule",
+    "swift-dependencies": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/Perturbation.swiftdeps",
+    "diagnostics": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/Perturbation.dia"
+  },
+  "/Users/mac/Desktop/GithubProject/DriveEcho/Sources/DriveEcho/Perturbations/Trace+Perturbed.swift": {
+    "dependencies": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/Trace+Perturbed.d",
+    "object": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/Trace+Perturbed.swift.o",
+    "swiftmodule": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/Trace+Perturbed~partial.swiftmodule",
+    "swift-dependencies": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/Trace+Perturbed.swiftdeps",
+    "diagnostics": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/Trace+Perturbed.dia"
+  },
+  "/Users/mac/Desktop/GithubProject/DriveEcho/Sources/DriveEcho/Perturbations/TunnelPerturbation.swift": {
+    "dependencies": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/TunnelPerturbation.d",
+    "object": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/TunnelPerturbation.swift.o",
+    "swiftmodule": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/TunnelPerturbation~partial.swiftmodule",
+    "swift-dependencies": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/TunnelPerturbation.swiftdeps",
+    "diagnostics": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/TunnelPerturbation.dia"
+  },
+  "/Users/mac/Desktop/GithubProject/DriveEcho/Sources/DriveEcho/Player/TracePlayer.swift": {
+    "dependencies": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/TracePlayer.d",
+    "object": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/TracePlayer.swift.o",
+    "swiftmodule": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/TracePlayer~partial.swiftmodule",
+    "swift-dependencies": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/TracePlayer.swiftdeps",
+    "diagnostics": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/TracePlayer.dia"
+  },
+  "/Users/mac/Desktop/GithubProject/DriveEcho/Sources/DriveEcho/Providers/LiveLocationProvider.swift": {
+    "dependencies": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/LiveLocationProvider.d",
+    "object": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/LiveLocationProvider.swift.o",
+    "swiftmodule": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/LiveLocationProvider~partial.swiftmodule",
+    "swift-dependencies": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/LiveLocationProvider.swiftdeps",
+    "diagnostics": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/LiveLocationProvider.dia"
+  },
+  "/Users/mac/Desktop/GithubProject/DriveEcho/Sources/DriveEcho/Providers/LocationProviding.swift": {
+    "dependencies": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/LocationProviding.d",
+    "object": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/LocationProviding.swift.o",
+    "swiftmodule": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/LocationProviding~partial.swiftmodule",
+    "swift-dependencies": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/LocationProviding.swiftdeps",
+    "diagnostics": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/LocationProviding.dia"
+  },
+  "/Users/mac/Desktop/GithubProject/DriveEcho/Sources/DriveEcho/Providers/ReplayLocationProvider.swift": {
+    "dependencies": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/ReplayLocationProvider.d",
+    "object": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/ReplayLocationProvider.swift.o",
+    "swiftmodule": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/ReplayLocationProvider~partial.swiftmodule",
+    "swift-dependencies": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/ReplayLocationProvider.swiftdeps",
+    "diagnostics": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/ReplayLocationProvider.dia"
+  },
+  "/Users/mac/Desktop/GithubProject/DriveEcho/Sources/DriveEcho/Recorder/RecorderConfiguration.swift": {
+    "dependencies": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/RecorderConfiguration.d",
+    "object": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/RecorderConfiguration.swift.o",
+    "swiftmodule": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/RecorderConfiguration~partial.swiftmodule",
+    "swift-dependencies": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/RecorderConfiguration.swiftdeps",
+    "diagnostics": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/RecorderConfiguration.dia"
+  },
+  "/Users/mac/Desktop/GithubProject/DriveEcho/Sources/DriveEcho/Recorder/TraceRecorder.swift": {
+    "dependencies": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/TraceRecorder.d",
+    "object": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/TraceRecorder.swift.o",
+    "swiftmodule": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/TraceRecorder~partial.swiftmodule",
+    "swift-dependencies": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/TraceRecorder.swiftdeps",
+    "diagnostics": "/Users/mac/Desktop/GithubProject/DriveEcho/.build/arm64-apple-macosx/debug/DriveEcho.build/TraceRecorder.dia"
+  }
+}
